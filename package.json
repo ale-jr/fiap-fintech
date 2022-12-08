@@ -1,0 +1,13 @@
+{
+  "name": "fiap-fintech",
+  "version": "0.0.1",
+  "description": "Por enquanto apenas front",
+  "scripts": {
+    "start": "serve public"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.1.2"
+  }
+}
