@@ -6,13 +6,33 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Login</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='assets/styles/main.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='assets/styles/bootstrap.min.css'>
-
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/styles/login.css'>
+    <script src="assets/scripts/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <h1>It works!</h1>
+    <main>
+        <h1>Fintech</h1>
+        <form>
+            <div class="mb-3">
+                <label for="email-input" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email-input" aria-describedby="email-help">
+                <div id="email-help" class="form-text"></div>
+            </div>
+            <div class="mb-3">
+                <label for="password-input" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="password-input">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Lembrar de mim</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Entrar</button>
+            <p>Não possui conta? <a href="#" type="button" class="btn btn-link">Crie sua conta aqui</a></p>
+        </form>
+    </main>
+
 </body>
 
 </html>
