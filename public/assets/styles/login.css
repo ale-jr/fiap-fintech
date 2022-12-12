@@ -4,7 +4,10 @@ body {
     justify-content: center;
     height: 100vh;
 
-    background-color: #7952b3;
+    background-color: var(--primary-500);
+
+    font-family: 'Lato', sans-serif;
+
 }
 
 main {

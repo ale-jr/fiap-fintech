@@ -1,0 +1,44 @@
+.btn-primary {
+    --bs-btn-color: var(--gray-0);
+    --bs-btn-bg: var(--primary-500);
+    --bs-btn-border-color: var(--primary-500);
+    --bs-btn-hover-color: var(--gray-0);
+    --bs-btn-hover-bg: var(--primary-600);
+    --bs-btn-hover-border-color: var(--primary-600);
+    --bs-btn-focus-shadow-rgb: 130, 138, 145;
+    --bs-btn-active-color: var(--gray-0);
+    --bs-btn-active-bg: var(--primary-700);
+    --bs-btn-active-border-color: var(--primary-700);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--gray-600);
+    --bs-btn-disabled-bg: var(--primary-400);
+    --bs-btn-disabled-border-color: var(--primary-400);
+}
+
+
+.btn-secondary {
+    --bs-btn-color: var(--gray-800);
+    --bs-btn-bg: var(--secondary-500);
+    --bs-btn-border-color: var(--secondary-500);
+    --bs-btn-hover-color: var(--gray-800);
+    --bs-btn-hover-bg: var(--secondary-600);
+    --bs-btn-hover-border-color: var(--secondary-600);
+    --bs-btn-focus-shadow-rgb: 130, 138, 145;
+    --bs-btn-active-color: var(--gray-800);
+    --bs-btn-active-bg: var(--secondary-700);
+    --bs-btn-active-border-color: var(--secondary-700);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--gray-600);
+    --bs-btn-disabled-bg: var(--secondary-400);
+    --bs-btn-disabled-border-color: var(--secondary-400);
+}
+
+.input-group-text {
+    background-color: unset;
+}
+
+.form-select:focus,
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem #40474e33;
+    border-color: var(--gray-200);
+}
